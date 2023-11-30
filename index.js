@@ -57,7 +57,7 @@ function renderEvents() {
 
     return li;
   });
-  eventsList.replaceChildren(...eventcards)
+  eventList.replaceChildren(...eventcards);
   console.log(eventcards)
   
 }
